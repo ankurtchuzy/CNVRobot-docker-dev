@@ -1,0 +1,23 @@
+channels:
+- conda-forge
+- bioconda
+dependencies:
+- bioconda::gatk4=4.6.2.0
+- bioconda::picard=3.4.0
+- bioconda::samtools=1.23.1
+- bioconda::htslib=1.23.1
+- bioconda::bcftools=1.23.1
+- bioconda::bedtools=2.31.1
+- conda-forge::dos2unix=7.5.5
+- conda-forge::gzip=1.14
+- conda-forge::unzip=6.0
+- bioconda::cnvkit=0.9.13
+- bioconda::ascat
+- bioconda::ucsc-bedgraphtobigwig=482
+- conda-forge::freetype
+- conda-forge::r-tidyverse
+- conda-forge::r-expss=0.11.7
+- bioconda::bioconductor-iranges
+- bioconda::bioconductor-rhdf5
+- conda-forge::git=2.54.0
+- bioconda::bioconductor-karyoploter=1.32.0
