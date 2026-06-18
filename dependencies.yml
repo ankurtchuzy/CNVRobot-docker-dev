@@ -1,3 +1,6 @@
+# List channels in the decreasing order of priority for package installation. Not relevant here because the specific channels are defined for each package.
+# Conda channels are the repositories where packages are stored for distribution.
+
 channels:
 - conda-forge
 - bioconda
