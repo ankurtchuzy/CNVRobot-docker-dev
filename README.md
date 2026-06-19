@@ -1,7 +1,7 @@
 # CNVRobot Docker Image
 
 <p align="center">
-<img width="175" height="181" alt="CNVRobot logo" src="https://github.com/user-attachments/assets/bc42cd33-dbaa-425c-88ed-60e9a8d284e3" />
+  <img src="https://github.com/AnetaMikulasova/CNVRobot/blob/main/CNVRobot_logo.png" alt="CNVRobot logo" width="200" height="207"/>
 </p>
 
 This repository provides the files and instructions to build and run a Docker image for [CNVRobot](https://github.com/AnetaMikulasova/CNVRobot).
