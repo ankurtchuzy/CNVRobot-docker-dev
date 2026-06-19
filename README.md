@@ -5,7 +5,7 @@
 </p>
 
 This repository provides the files and instructions to build and run a Docker image for CNVRobot.
-The source CNVRobot repository is available at (https://github.com/AnetaMikulasova/CNVRobot)
+The source CNVRobot repository is available at https://github.com/AnetaMikulasova/CNVRobot
 
 ## Usage
 
