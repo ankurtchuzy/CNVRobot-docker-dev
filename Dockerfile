@@ -1,4 +1,4 @@
-############ Running instructions ############
+############ Building instructions ############
 
 # Command to build local image:             docker build -t cnv-robot:vX.X .
 # Commands to build image and publish to Docker Hub
