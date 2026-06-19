@@ -30,6 +30,7 @@ Build the image:
 ```bash
 docker build -t cnv-robot:v4.2 .
 ```
+> ⚠️ **Note:** The databases bundled in this image sum to ~9.4 GB. Download and unpacking may take some time.
 
 ## Usage
 
