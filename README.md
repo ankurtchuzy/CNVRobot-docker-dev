@@ -32,8 +32,8 @@ docker build -t cnv-robot:v4.2 .
 ```
 > ⚠️ **Note:** The databases bundled in this image sum to ~9.4 GB. Download and unpacking may take some time.
 >
-> 💡 **Tip:** If building on Apple Silicon (arm64), consider targeting multiple platforms to ensure compatibility with x86_64 (amd64) HPC clusters:
 > 
+> 💡 **Tip:** If building on Apple Silicon (arm64), consider targeting multiple platforms to ensure compatibility with x86_64 (amd64) HPC clusters, and vice versa:
 > ### Set up buildx for multi-platform builds
 >```bash
 > docker buildx create --use
