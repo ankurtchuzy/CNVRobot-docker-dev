@@ -24,3 +24,4 @@ dependencies:
 - bioconda::bioconductor-rhdf5
 - conda-forge::git=2.54.0
 - bioconda::bioconductor-karyoploter=1.32.0
+- conda-forge::wget=1.25.0

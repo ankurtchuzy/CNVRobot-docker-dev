@@ -29,6 +29,11 @@ RUN R -e "install.packages('splitstackshape', dependencies=TRUE, repos='https://
 WORKDIR /home/mambauser
 RUN git clone https://github.com/AnetaMikulasova/CNVRobot.git \
     && find CNVRobot/Scripts -name "*.sh" -exec chmod +x {} \;
+# Doenload databases and extract them
+RUN wget "https://zenodo.org/records/20761773/files/Databases.zip?download=1" \
+    -O Databases.zip && \
+    unzip Databases.zip && \
+    rm Databases.zip
 # Include metadata
 LABEL   cnvrobot.version="4.2" \
         org.opencontainers.image.authors="amikulas@ed.ac.uk & ankur.chaurasia@ed.ac.uk"
